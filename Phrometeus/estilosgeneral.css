@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+} 
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden; 
+} 
+
+.titulo{
+    color: #565ff5;;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px; /*AQUI*/
+    background: #000428; 
+    background: -webkit-linear-gradient(to right, hsla(208, 100%, 29%, 0.61), hsla(234, 100%, 8%, 0.63));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(208, 100%, 29%, 0.596), hsla(234, 100%, 8%, 0.637)), url("portada.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.barra-navegacion{
+    background: #000428; 
+    background: -webkit-linear-gradient(to right, hsla(208, 100%, 29%, 0.61), hsla(234, 100%, 8%, 0.11));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(208, 100%, 29%, 0.377), hsla(234, 100%, 8%, 0.26)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   padding: 5px;
+   top: 0;
+   position: fixed;
+   width: 100%;
+   /* z-index: 1; */
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+} 
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+} 
+
+nav > a:hover{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.caja-suscripcion{
+    width: 100%;
+    height: 50vh;
+    margin-top: 75px;
+} 
+
+input[type="text"], input[type="password"],input[type="date"]{
+    outline: none;
+    /* background-color: pink; */
+    padding: 10px;
+    display: block;
+    width: 350px;
+    border-radius: .5rem;
+    background: #ccccccbd;
+    /* padding: 15px 7px; */
+    border: none;
+    margin: 10px auto;
+    text-align: center;
+}
+input[type="submit"]{
+    /* outline: none; */
+    padding: 10px;
+    display: block;
+    width: 150px;
+    border-radius: .5rem;
+    /* padding: 15px 7px; */
+    border: none;
+    margin: 30px auto;
+    text-align: center;
+
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    background-color: hsla(234, 100%, 8%, 0.63);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 6px 0 hsla(234, 100%, 8%, 0.63);
+}
+input[type="submit"]:hover{
+    color: black;
+    background: #fff;
+}
+.caja-descargas{
+    width: 100vh;
+    height: 75vh;
+}
+.archivos{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    background: red;
+    padding: auto;
+}
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: -webkit-linear-gradient(to right, hsla(208, 100%, 29%, 0.61), hsla(234, 100%, 8%, 0.63));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(208, 100%, 29%, 0.596), hsla(234, 100%, 8%, 0.637)), url("portada.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    bottom: 0;
+    z-index: 1;
+    position: inherit;
+}
